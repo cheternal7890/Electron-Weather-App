@@ -1,3 +1,6 @@
+
+<img width="1270" alt="Electron Weather App" src="https://github.com/cheternal7890/Electron-Weather-App/assets/157067093/a76bcbd0-6a16-4c9c-8216-11920dd62c17">
+
 The original Weather-App I created was built primarly using HTML, CSS and JavaScript, but I wanted it to be something more than than just a static website. 
 
 I read about Electron, its advantages, and ease of use, so I decided to make convert my existing weather application and make it Electron Based with a React framework.
