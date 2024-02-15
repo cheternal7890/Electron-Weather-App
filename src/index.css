@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(145deg, #2b6eb0, #003e7c);
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  min-width: 500px;
+  color: #fff;
+}
+
+/* Search Bar and Search Icon */
+.search {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  background: #4b90d4;
+  color: white;
+  height: 60;
+  padding: 8px 75px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.search ::placeholder {
+  color: white;
+}
+
+.search img {
+  text-align: center;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+  cursor: pointer;
+  width: 25px;
+  height: 35px;
+}
+
+/* First Box */
+.mainDetails {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 25px;
+  background: linear-gradient(90deg, #003e7c, #003e7c);
+}
+
+.weather-icon {
+  width: 75px;
+}
+
+.weather h1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: -15px;
+}
+
+.weather h2 {
+  font-size: 30px;
+  margin-top: -10px;
+  font-weight: 600;
+}
+
+.weather h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.weather h4 {
+  font-size: 14px;
+  margin-top: -18px;
+  font-weight: 500;
+}
+
+/* Second Box: Contains Wind, Humidity, Visibility, and Pressure */
+.weatherConditions {
+  display: flex;
+  padding: 45px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #003e7c, #003e7c);
+  border-radius: 15px;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.weatherConditions :hover {
+  background-color: #436581;
+  transition: background-color 50ms;
+  border-radius: 15px;
+}
+
+.humidity,
+.wind,
+.visibility,
+.pressure {
+  font-size: 16px;
+  margin-top: -12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Card Box Appearance */
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  background-color: #114b86;
+  padding: 15px 42px;
+  border-radius: 15px;
+}
+
+.col img {
+  width: 25px;
+  margin-right: 12px;
+}
+
+.description {
+  opacity: 0.75;
+}
+
+.sunDescription {
+  margin-left: 2px;
+  opacity: 0.75;
+}
+
+.imageAdjust {
+  margin-top: 15px;
+  margin-left: 14.5px;
+  margin-bottom: -16px;
+}
+
+/* Map Container */
+
+.mapContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  padding: 45px;
+  background: linear-gradient(90deg, #003e7c, #003e7c);
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.leaflet-container {
+  width: 50vw;
+  height: 35vh;
+  border-radius: 15px;
+  min-width: 420px;
+}
+
+/* Daily Forecast */
+/* Adding this for later */
+
