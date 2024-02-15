@@ -10,3 +10,13 @@ What is new is the interactive map that display a marker of any city that the us
 **How does it work?**
 A function takes the longitude and latitude of the information received from the OpenWeatherMap API and inputs it into the Map.tsx, which then places a marker on the map of the location. The map is based off the Leaflet JavaScript library if you 
 are curious to learn more: https://leafletjs.com/reference.html.
+
+**Installation**
+
+1) Download the zip file, uncompress it, and place it on your desktop.
+
+2) CD into the folder using any terminal.
+
+3) Run the "npm run dev" command.
+
+3) You can now play around with it so let me know what you think/have any suggestions.
